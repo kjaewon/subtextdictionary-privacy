@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- next2great-legal 에서 생성한 문서입니다. 직접 고치지 말고 apps/subtextdictionary/policy.md 를 고친 뒤 다시 생성하세요. -->
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>속뜻 사전 개인정보처리방침</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1b1f;
+    --muted: #5f5e62;
+    --rule: #e2e0e4;
+    --accent: #7c2416;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141218;
+      --fg: #e6e1e6;
+      --muted: #a9a5ab;
+      --rule: #3a383e;
+      --accent: #f0a493;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+      "Noto Sans KR", "Malgun Gothic", sans-serif;
+    line-height: 1.7;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .effective-date { color: var(--muted); font-size: 0.95rem; margin: 0 0 32px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+  h3 { font-size: 1.02rem; margin: 28px 0 8px; }
+  p, li { font-size: 1rem; }
+  ul, ol { padding-left: 1.3em; }
+  li + li { margin-top: 6px; }
+  a { color: var(--accent); }
+  code { font-size: 0.92em; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.95rem; }
+  th, td { border: 1px solid var(--rule); padding: 6px 10px; text-align: left; vertical-align: top; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>속뜻 사전 개인정보처리방침</h1>
+  <p class="effective-date">시행일: 2026년 11월 26일</p>
+
+<p>속뜻 사전(<code>com.next2great.subtextdictionary</code>, 이하 "앱")은 일상에서 들은 표현의 속뜻을 풀이와 함께 읽고, 사전에 없는
+표현에 내 정의를 남기는 Android 사전 앱입니다. 앱은 로그인이나 회원가입 기능이 없고, 운영자가 별도로 운영하는 서버가
+없으며, 이용자가 입력한 문장이나 기록을 운영자에게 전송하지 않습니다. 사전 내용과 검색은 모두 앱 안에서 처리되어
+인터넷 연결 없이 쓸 수 있고, 앱은 인터넷 접근 권한을 요청하지 않습니다.</p>
+<h2>1. 입력한 문장과 검색</h2>
+<p>이용자가 홈에 입력하거나 붙여넣은 문장, 메신저 등 다른 앱의 공유 메뉴로 보낸 문장은 기기 안에서만 검색에 쓰입니다.
+"의미가 비슷한 표현"을 찾는 의미 검색도 기기 안에 있는 모델(IBM Granite Embedding)로 처리하며, 문장을 기기 밖으로
+보내지 않습니다. 이용자가 저장하지 않은 문장은 앱을 닫으면 남지 않습니다.</p>
+<p>붙여넣기는 이용자가 "붙여넣기"를 누를 때만 클립보드의 텍스트를 읽습니다.</p>
+<h2>2. 기기 안에만 저장하는 정보</h2>
+<p>앱 자체는 이름, 이메일 주소, 전화번호, 연락처, 사진 또는 위치정보를 수집하지 않습니다.
+이용자가 앱을 사용하면 다음 정보가 기기 내부의 앱 전용 저장공간에만 저장됩니다.</p>
+<ul>
+<li>이용자가 저장을 누른 내 정의(표현과 정의 문장)</li>
+<li>"나도 들어 봤어요"로 담은 표현, 도전 문제의 진행 기록</li>
+<li>앱 언어와 화면 테마 설정</li>
+</ul>
+<p>이 정보는 앱 기능에만 쓰이며 기기 밖으로 보내지 않습니다. 앱은 Android 클라우드 백업과 기기 간 데이터 이전에서
+제외되어 있어, 기기를 바꾸면 기록이 옮겨지지 않습니다.</p>
+<h2>3. 카드 공유</h2>
+<p>이용자가 "카드로 공유"나 이미지 공유를 누르면, 화면에 보이는 표현과 정의로 이미지를 만들어 Android 공유 화면에
+넘깁니다. 이미지는 앱의 임시 저장공간에 만들어지며, 하루가 지난 이미지는 다음에 카드를 만들 때 지워집니다. 어떤 앱으로 보낼지는 이용자가 정하며,
+보낸 뒤에는 그 앱의 방침이 적용됩니다.</p>
+<h2>4. Google Play 기능과 다른 앱 열기</h2>
+<ul>
+<li><strong>의미 검색 모델 받기</strong>: Google Play에서 내려받은 앱은 의미 검색을 처음 쓸 때 모델 파일을 Google Play 스토어 앱을
+  통해 받을 수 있습니다. 이 과정은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에 따라 처리되며,
+  입력한 문장은 포함되지 않습니다.</li>
+<li><strong>리뷰 남기기·앱 공유하기·문의하기·원문 판본 보기·개인정보처리방침</strong>: 이용자가 누를 때만 Google Play, 공유 화면,
+  메일 앱 또는 브라우저를 엽니다. 문의 메일에는 답변에 필요한 앱 버전과 기기·Android 버전이 미리 적혀 있으며,
+  보내기 전에 이용자가 확인하고 지울 수 있습니다. 그 뒤에는 해당 앱과 웹사이트의 방침이 적용됩니다.</li>
+</ul>
+<h2>5. 광고, 사용 통계와 오류 보고</h2>
+<p>앱은 광고를 표시하지 않으며, 사용 통계(Analytics)나 오류 보고(Crashlytics) 도구를 사용하지 않습니다. 이후 추가하는
+경우 이 방침을 먼저 고쳐 안내합니다.</p>
+<h2>6. 아동</h2>
+<p>앱은 아동을 대상으로 하지 않으며, 이용자를 식별할 수 있는 개인정보를 수집하지 않습니다.</p>
+<h2>7. 정보 삭제</h2>
+<p>내 정의와 "나도 들어 봤어요"로 담은 표현은 앱 안에서 지울 수 있습니다. 기기 설정에서 앱 데이터를 지우거나 앱을 삭제하면
+기기에 저장된 모든 정보가 삭제됩니다.</p>
+<h2>8. 방침 변경</h2>
+<p>이 방침이 바뀌면 이 페이지에 게시하고 시행일을 고칩니다.</p>
+<h2>9. 문의</h2>
+<ul>
+<li>개발자: next2great</li>
+<li>이메일: next2great.dev@gmail.com</li>
+</ul>
+
+  <footer>
+    속뜻 사전 &middot; <code>com.next2great.subtextdictionary</code> &middot;
+    <a href="https://github.com/kjaewon/subtextdictionary-privacy/blob/main/PRIVACY.md">원문 마크다운 보기</a>
+  </footer>
+</main>
+</body>
+</html>
